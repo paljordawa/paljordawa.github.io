@@ -1,0 +1,205 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name = "keywords" content = "paljordawaportfolio,paljordawapersonalpage,webdesign,logodesign,tibetan,freelance,portfolio,paljordawa,designtibet,tibetanlogo" />
+    <meta name="description" content="freelance tibetan web designing based in Mcloed Ganj,Dharamsala. I can make web designing,logo design and other graphic services in any part for the org. or company.">
+    <meta name = "revised" content = "Tutorialspoint, 7/8/2017" />
+    <meta name = "author" content = "Dawa Paljor" />
+        <title>PaljorDawa|Personal page| paljordawaPortfolio</title>
+    <link  rel=" shortcut icon" rel="image/jpg" href="icons/titleicon1.jpg">
+    <link  rel="stylesheet" type="text/css" href="style2.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script  src="scripts/myscript.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".nav-burger").on("click",function(){
+                $("#main-nav").slideToggle();
+            })
+     });   
+    </script>
+    </head>
+    <body>
+        <header>
+
+            <a href="#">
+            <div class="header-logo">
+            <img src="icons/dplogoBLUE.png" class="header-logo" alt="">  
+           </div>
+
+            <div class="header-title">
+                <h2>DAWA PALJOR</h2>
+                <p>My Portfolio </p>
+            </div>
+            </a>
+            <nav>
+    <a class="nav-burger"></a>
+
+                <ul id="main-nav">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#service">SERVICE</a></li>
+                    <li><a href="#adir">ART DIRECTION</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="http://www.paljordawa.com">MYBLOG</a></li>
+                    <li><a href="#">LOGIN</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <div class="container" id="home">
+            <div class="wrapper">
+               
+                <h1>I<span>'</span>m<br>Dawa Paljor<span>.</span></h1>
+               <p> <span>Digital Artist / graphic / Web Designer</span></p>
+
+            </div>
+        </div>
+        <div class="container" id="service">
+            <section>
+               <h1>SERVICE</h1>
+                <p>
+                    Hi, I'm Dawa Paljor. I'm a multidisciplinary designer from Mcloed Ganj(Dhasa). I build websites, infographics, and digital products. Design to me is a way of life. It's not a job but a passion that you grow with every day. I've been a self-taught designer for most of my career and has been dabbling with code. 
+    I've been fortunate to work with successful entrepreneurs and talented individuals that have helped me with my journey on becoming a better designer. I love learning and creating innovative solutions for the digital world, always striving for perfection and the best possible result.
+                </p>
+            </section>
+            <section>
+               <article class="bgimage">
+                   <div class="img-circle-md" id="digital">
+
+                   </div>
+                    <h3 class="art-title title1">DIGITAL</h3>
+                <ul>
+                    <li>Website Designing</li>
+                    <li>UI &amp; UX Desaign</li>
+                </ul>
+               </article>
+                <article class="bgimage">
+                   <div class="img-circle-md" id="creative">
+
+                   </div>
+                    <h3 class="art-title title2">CREATIVE</h3>
+                <ul>
+                    <li>ICONGRAPHY &amp; ILLUSTRATION</li>
+                    <li>INFIGRAPGICS</li>
+                </ul>
+               </article>
+               <article class="bgimage">
+                   <div class="img-circle-md" id="branding">
+
+                   </div>
+
+                    <h3 class="art-title title3">BRANDING</h3>
+                <ul>
+                    <li>LOGO Designing</li>
+                    <li>POSTERS</li>
+                    <li>BOOK PUBLISHING</li>
+                </ul>
+               </article>
+            </section>
+        </div>
+        <div class="container" id="adir">
+            <section>
+
+                    <h1>ART DIRECTION</h1>
+                    <p>Starting with basic websites several years ago I found myself working as an Art Director for complex projects with a holistic approach soon. Visually appealing designs, subtle details and brand guidelines combined to innovative interfaces across various touch points became my daily companion.
+    Out of this love for aesthetic design my passion for functionality and structure evolved. Jumping right into Photoshop didn’t feel accurate anymore and skipping the steps of building a framework based on functionality and usability became inevitable.</p>
+
+            </section>
+            <section class="fixed-pic" id="art-dir">
+
+            </section>
+        </div>
+           <div class="container" id="portfolio">
+
+            <section id="portfolio">
+               <h1>PORTFOLIO</h1>
+                <div class="slider-box">   
+              <!-- ------------------Portfolio Slider ends here ----------- -->
+            <div class="pic-box">
+              
+            </div>
+            <div class="pic-box"><h1>FLYERS</h1></div>
+            <div class="pic-box">2</div>
+            <div class="pic-box">4</div>
+            <div class="pic-box">5</div>
+            <div class="pic-box"><h2>LOGO's</h2></div>          
+            <div class="pic-box"><h1>POSTERS</h1></div>          
+        <!-- ------------------ Slider ends here ----------- -->
+            </div>
+         
+            
+
+            </section>
+
+        </div>
+        <div class="container" id="contact">
+          <section>
+              <h1>Contact</h1>
+          </section>
+           <section>
+               <article>
+                    <h3 class="art-title">Leave a message</h3>
+                    <form action="postmail.php" method="post">
+                      <p class="submitmsg-s">
+
+                      </p>
+                       <ul>
+                           <li>
+                               <label for="name">Name</label>
+                               <input type="text" id="name" name="name" class="txtbox">
+                           </li>
+                           <li>
+                               <label for="email">Email</label>
+                               <input type="email" id="email" name="email" class="txtbox">
+                           </li>
+                           <li>
+                               <label for="subject">Subject</label>
+                               <input type="text" id="subject" name="subject" class="txtbox">
+                           </li>
+                           <li>
+                              <label for="message">Message</label>
+                               <textarea name="message" id="message" cols="50" rows="10">
+
+                               </textarea>
+                           </li>
+                           <li> 
+                               <input type="submit" id="submit" name="submit" value="SEND" class="button">
+                           </li>
+                       </ul> 
+
+                    </form>
+                  </article>
+                <article>
+                    <h3 class="art-title">Address</h3>
+                    <ul>
+                        <li>Dawa Paljor</li>
+                        <li>Tibetan Career Centre(TCC)</li>
+                        <li>Mcloed Ganj,Dharamsala Cantt,</li>
+                        <li>Distt Kangra,HP-176219,IND</li>
+                    </ul>
+                    <ul>
+                      <li>Phone no:  9816541732</li>
+                      <li>Email: paljordawa@gmail.com</li>
+                  </ul>
+                </article>
+
+                   <article>
+                    <h3 class="art-title">Social</h3>
+                    <a href="https://www.facebook.com/dpaljor"><img class="icon-s" src="icons/social/facebook.png" alt=""></a>
+                    <a href="#"><img class="icon-s" src="icons/social/youtube.png" alt=""></a>
+                    <a href="https://www.instagram.com/paljordawa/"><img class="icon-s" src="icons/social/insta.png" alt=""></a>
+                    <a href="#"><img class="icon-s" src="icons/social/RSS.png" alt=""></a>
+
+
+                </article>
+           </section>
+        </div> 
+       <footer>
+        </footer>
+
+       <a href="#" id="scrolltop"></a>
+    </body>
+    </html>
