@@ -1,10 +1,10 @@
 ---
 date: 2017-01-15
-title: Layouts
+title: Page2
 video_id: Gc2d-eGSSdQ
 description: Use Jekyll layouts to reduce repetition on your site
 categories:
-  - deployment
+  - Jekyll
 resources:
   - name: "Layout documentation"
     link: https://jekyllrb.com/docs/frontmatter/
