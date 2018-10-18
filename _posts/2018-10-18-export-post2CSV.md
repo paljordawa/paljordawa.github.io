@@ -1,8 +1,8 @@
 ---
 date:	2018.10.17
-title:	EXPORT POSTS TO CSV IN
+title:	Export Post to CSV
 categories: Wordpress-Tricks
-description: If you are running a WordPress site, then it’s obvious that you have written plenty of posts. WordPress provides a good interface for posts listing. Still, someone wants to export posts to CSV. In this article, we show you how to add a custom button on the post listing page and export posts to CSV without using any wordpress Plugins
+description: How to add a custom button on the post listing page and export posts to CSV without using any wordpress Plugins.
 
 type: Document
 ---
