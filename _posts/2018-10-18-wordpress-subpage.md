@@ -6,6 +6,7 @@ description: This Instruction will guide you to make a sub page menu list rather
 
 type: Document
 ---
+![image](/images/gellary/sub-page.jpg)
 ## Introduction
 
 This Instruction will guide you to make a sub page menu list rather than conventional dropdown menu items.
