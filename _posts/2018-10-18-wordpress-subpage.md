@@ -10,8 +10,8 @@ type: Document
 ## Introduction
 
 This Instruction will guide you to make a sub page menu list rather than conventional dropdown menu items.
-### post.php
-Inside your post.php file in child theme,copy the lines below and paste them before post or right after the main menu. These lines of codes will display the subpage menus.
+### Post
+Inside your `post.php` file in child theme,copy the lines below and paste them before post or right after the main menu. These lines of codes will display the subpage menus.
 ``` php
     <?php
     $args = array (
@@ -34,8 +34,8 @@ Inside your post.php file in child theme,copy the lines below and paste them bef
 ```
 >>  `get_top_ancestor_id()` method will invoke a functions from the functions.php file which we can define in next step.
 
-## functions.php
-In this file we are going to define the `get_top_ancestor_id()` functions which will fetch all the pages name under the parent page and returns them.  
+## functions
+`finctions.php:`In this file we are going to define the `get_top_ancestor_id()` functions which will fetch all the pages name under the parent page and returns them.  
 Now copy the lines of code below and paste inside you child-theme functions.php file.
 
 ```php

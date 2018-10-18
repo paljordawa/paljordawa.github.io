@@ -20,7 +20,7 @@ Now let’s jump to .htaccess file how this is setup.
  ?>
 
 ```
-## Technique 1:
+## Technique 1
 ### .htaccess[^2] :
 Open  `.htaccss` file and add the code lines. 
 ```
