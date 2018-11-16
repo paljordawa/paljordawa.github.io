@@ -11,4 +11,5 @@ group :jekyll_plugins do
   gem 'tzinfo', '~> 1.2', '>= 1.2.5'
   gem 'tzinfo-data', '~> 1.2018', '>= 1.2018.5'
   gem 'jekyll', '3.8.4'
+  gem 'jekyll-watch', '~> 2.1', '>= 2.1.2'
 end
