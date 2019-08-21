@@ -13,16 +13,3 @@
 @import "modal";
 @import "form";
 @import "cloudcannon";
-
-header{background:#403e3e}
-header .top-bar .logo svg{width:fit-content}
-.logo svg{transform:scale(.7)}
-.hero_search {display:block}
-.footnote{font-size:10px; text-decoration:none;
- background:#959292;color:white;
- padding:3px 5px;
- border-radius:2px;
-margin:3px;
- }
-.footnotes{border-top:4px solid black}
-.footnotes p{font-size:12px; margin:0px}
