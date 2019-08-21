@@ -1,24 +1,24 @@
 # ----
 # Site
 
-title: Base
-url: "https://orange-ape.cloudvent.net/"
+title: paljordawa
+url: "paljordawa.github.io"
 baseurl:
-google_analytics_key:
+google_analytics_key: UA-104773879-1
 disqus_shortname:
 newsletter_action:
-
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
 description: Knowledge base template for Jekyll.
-author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+author: 
+  name: 
+  email: paljordawa@gmail.com
+  twitter: PaljorDawa
+  instagram: PaljorDawa
 social:
   name: Base Template
   links:
-    - https://github.com/CloudCannon/base-jekyll-template
+    - https://github.com/paljordawa/paljordawa.github.io
 
 # -----
 # Build
