@@ -2,12 +2,7 @@
   link: https://facebook.com/paljordawa
   new_window: true
   social_icon: Facebook
-- fb:
-  link: https://facebook.com/paljordawa
-  new_window: true
-  social_icon: Facebook
-  text: tashi
-
+  
 - name:
   link: https://twitter.com/@PaljorDawa
   social_icon: Twitter
