@@ -10,6 +10,6 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap', '1.2.0'
   gem 'jekyll', '3.8.4'
   gem 'jekyll-watch', '~> 2.1', '>= 2.1.2'
-  gem 'tzinfo', '~> 1.2', '>= 1.2.2'
+  gem 'tzinfo', '~> 1.2'
   gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 end
