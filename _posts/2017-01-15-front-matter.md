@@ -22,6 +22,7 @@ CloudCannon is cloud content management system and hosting provider for Jekyll w
 
 ## Setup
 
+
 To begin, we need to create a CloudCannon account and create our first site. Head over to [CloudCannon](https://cloudcannon.com) and click the *Get Started Free* button:
 
 Enter your details into the sign up form:
